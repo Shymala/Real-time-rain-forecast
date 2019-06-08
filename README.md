@@ -1,5 +1,5 @@
 # Real-time-rain-forecast
-Real time weather forecast using AWS and Open weather API
+## Real time weather forecast using AWS and Open weather API
 
 Being from a village in southern part of India with agricultural background, we are always dependent on rain for a different number of reasons. Thanks to internet, it is now easy to get real-time predictions for rain/weather forecasts. However for people without any smart phones and internet access (which is common in our village), having an sms based alert about forecasted rain in near real-time will be a extremely helpful.
 
