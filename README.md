@@ -11,6 +11,7 @@ Real-time Rain forecast using AWS Lambda , AWS SNS  & Open Weather
 ## Technical architecture:
 The core part of this solution is an AWS Lambda function written in Python code which uses OpenWeather API to get the the weather forecast for the next few hours for a particular location/city. The lambda function parses the json object returned by the api call and then checks if there is a rain forecast. In case of a rain forecast, it sends rain forecast message (with additional details such as when is the rain forecasted and what is the volume of rain in mm) to an SNS topic which then sends the alerts as sms messages to mobile phones!
 
+![]<Images/realtime_rain_alert_tech_flow.png>
 
 1. Cloudwatch triggers lambda at  scheduled intervals.
 2. Lambda function executes and calls Open Weather API to extract rain forecast data.
